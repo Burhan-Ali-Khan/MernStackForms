@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+
+}
+
+
+.navbar .logo a {
+    font-size: 1rem;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.navbar .logo a:hover {
+    color: red
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin-right: 5px;
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    transition: .3s ease;
+}
+
+.navbar ul li a:hover {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+
+}
